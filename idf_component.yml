@@ -15,8 +15,9 @@ targets:
   - esp32s3
   - esp32s31
 dependencies:
-  esp-idf-lib/esp_idf_lib_helpers:
-    version: "*"
+  esp_idf_lib_helpers:
+    git: https://github.com/blasko03/esp_idf_lib_helpers.git
+    version: main
 maintainers:
   - Ruslan V. Uss (@UncleRus) <unclerus@gmail.com>
   - Piotr P. (@quinkq)
